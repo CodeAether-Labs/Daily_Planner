@@ -1,0 +1,9 @@
+# Déploiement de l’API sur Render (gratuit possible).
+# Dashboard Render → New → Blueprint → connecter le dépôt, ou créer un Web Service manuellement.
+services:
+  - type: web
+    name: daily-planner-api
+    runtime: node
+    plan: free
+    buildCommand: npm install --prefix server
+    startCommand: npm start --prefix server

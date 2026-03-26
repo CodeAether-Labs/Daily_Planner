@@ -1,0 +1,25 @@
+/*
+ * Thème visuel — surcharge les variables de index.css.
+ * Dé-commente et modifie pour une identité visuelle propre.
+ *
+ * Idées pour sortir du lot :
+ * - Accent chaud (corail, ambre) vs froid (bleu « SaaS »).
+ * - Typo distinctive : change le <link> Google Fonts dans index.html
+ *   puis remplace --font ici (ex. "Outfit", "Sora", "Fraunces").
+ */
+
+/* Exemple : palette « ambre / nocturne » (décommenter pour tester)
+:root {
+  --accent: #f59e0b;
+  --accent-soft: rgba(245, 158, 11, 0.14);
+  --accent-glow: rgba(245, 158, 11, 0.35);
+  --accent-dim: #d97706;
+  --accent-2: #ec4899;
+}
+*/
+
+/* Exemple : typo alternative (après avoir ajouté la font dans index.html)
+:root {
+  --font: "Outfit", system-ui, sans-serif;
+}
+*/
